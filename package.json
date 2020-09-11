@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/globals.css -o build/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "postcss-preset-env": "^6.7.0",
+    "stylelint": "^13.7.0"
+  },
+  "devDependencies": {
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "^1.8.8"
+  }
+}
